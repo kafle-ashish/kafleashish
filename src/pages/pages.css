@@ -1,0 +1,12 @@
+.landing__section {
+  display: flex;
+  background-image: url(../images/super.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 93vh;
+}
+
+.introo {
+  margin-left: 12vw;
+  margin-top: 8vh;
+}
