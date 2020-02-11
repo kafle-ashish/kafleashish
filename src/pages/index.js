@@ -136,13 +136,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section
-        style={{ display: "flex", justifyContent: "center", marginTop: "40px" }}
-      >
-        <Button style={{ margin: "10px" }}>About Me</Button>
-        <Button style={{ margin: "10px" }}>Portfolio</Button>
-        <Button style={{ margin: "10px" }}>Contact Me</Button>
-      </section>
     </Layout>
   )
 }

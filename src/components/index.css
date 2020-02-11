@@ -55,3 +55,29 @@ footer {
   flex-direction: column;
   align-items: flex-end;
 }
+
+.landing__section {
+  display: flex;
+  /* background-image: url(../images/super.jpg); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80vh;
+}
+
+.introo {
+  padding-top: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home__name {
+  font-size: 4rem !important;
+  color: #202b33 !important;
+}
+
+.position__desc {
+  font-size: 1rem !important;
+}

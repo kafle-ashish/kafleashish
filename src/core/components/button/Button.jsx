@@ -7,9 +7,22 @@ import "./styles.css"
 //   style?: React.CSSProperties;
 // }
 
-export const Button = ({ type = "raised", children, style }) => {
+export const Button = ({
+  type = "raised",
+  children,
+  style = {},
+  color,
+  intent,
+}) => {
   return (
-    <div className={type + " button"} style={style}>
+    <div
+      className={type + " button"}
+      style={{
+        ...style,
+        color,
+        border: `2px solid ${intent}`,
+      }}
+    >
       {children}
     </div>
   )

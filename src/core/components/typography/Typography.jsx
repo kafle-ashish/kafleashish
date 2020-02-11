@@ -1,5 +1,5 @@
 import React from "react"
-import "./styles.module.css"
+import "./styles.css"
 
 // interface Props {
 //   children: React.ReactNode;
@@ -8,10 +8,16 @@ import "./styles.module.css"
 //   color?: string;
 // }
 
-const Typography = ({ children, type = "body", style, color = "black" }) => {
+const Typography = ({
+  children,
+  type = "body",
+  style,
+  color = "black",
+  className,
+}) => {
   const styles = { ...style, color: color }
   return (
-    <div className={type} style={styles}>
+    <div className={type + " " + className} style={styles}>
       {children}
     </div>
   )
