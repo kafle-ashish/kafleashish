@@ -4,7 +4,6 @@ import Typography from "../core/components/typography/Typography"
 import Server from "../images/computer.svg"
 import Computer from "../images/browser.svg"
 import SmartPhone from "../images/smartphone.svg"
-import { Button } from "../core/components/button/Button"
 import Layout from "../components/layout"
 import "./pages.css"
 import SEO from "../components/seo"
@@ -69,10 +68,10 @@ export default function HomePage() {
               Web/Front-end development
             </Typography>
             <Typography type="body">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt
+              Want to build your dream business? Or do you want to make your own
+              personal webpage? <br />I can help you build beautiful,
+              accessible, performant & fast websites either for personal or
+              business purposes.
             </Typography>
           </div>
 
@@ -98,10 +97,10 @@ export default function HomePage() {
               API/Server side development.
             </Typography>
             <Typography type="body">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt
+              Any good business or service usually needs an API to talk to. I
+              can build a fully perfomant & scalable API for your mobile or
+              desktop applications. Want to build an e-commerce or your own new
+              brand? I am here to help!
             </Typography>
           </div>
 
@@ -128,10 +127,10 @@ export default function HomePage() {
               Native App development.
             </Typography>
             <Typography type="body">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt
+              Do you want to reach your customers directly? I can build a
+              performant mobile application for ios or android. I can work with
+              API integration and application development. Bring me your ideas
+              and I will make them into a reality!
             </Typography>
           </div>
         </div>
