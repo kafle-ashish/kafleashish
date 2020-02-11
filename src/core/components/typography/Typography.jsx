@@ -13,7 +13,7 @@ const Typography = ({
   type = "body",
   style,
   color = "#202b33",
-  className,
+  className = "",
 }) => {
   const styles = { ...style, color }
   return (

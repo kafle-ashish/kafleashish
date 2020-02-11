@@ -24,22 +24,10 @@ export default function AboutPage() {
         style={{
           display: "flex",
           padding: "10px 20px",
-          height: "91vh",
-          marginTop: "2vh",
+          height: "80vh",
           justifyContent: "space-around",
         }}
       >
-        <Card
-          bg="white"
-          style={{
-            backgroundImage: `url(${Image})`,
-            height: "500px",
-            width: "400px",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            flex: 1,
-          }}
-        ></Card>
         <div
           style={{
             display: "flex",
