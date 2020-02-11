@@ -10,3 +10,14 @@
   margin-left: 12vw;
   margin-top: 8vh;
 }
+
+.error__404 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.title__text {
+  color: #333;
+  font-weight: bold;
+  font-size: 1rem;
+}

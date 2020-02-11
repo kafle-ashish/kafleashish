@@ -7,10 +7,22 @@ import SmartPhone from "../images/smartphone.svg"
 import { Button } from "../core/components/button/Button"
 import Layout from "../components/layout"
 import "./pages.css"
+import SEO from "../components/seo"
 
 export default function HomePage() {
   return (
     <Layout>
+      <SEO
+        title="Home"
+        description="Ashish Kafle home page"
+        meta={[
+          {
+            name: "keywords",
+            content:
+              "Ashish, Kafle, Ashish Kafle, Home, Ashish Kafle Home Page",
+          },
+        ]}
+      />
       <Landing />
       <section style={{ display: "grid", placeItems: "center" }}>
         <Typography

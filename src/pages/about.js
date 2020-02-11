@@ -11,12 +11,12 @@ export default function AboutPage() {
   return (
     <Layout>
       <SEO
-        title="Page two"
+        title="About"
         description="Ashish Kafle about page"
         meta={[
           {
-            title: "keywords",
-            keywords: "Ashish, Kafle, Ashish Kafle, About, About Ashish Kafle",
+            name: "keywords",
+            content: "Ashish, Kafle, Ashish Kafle, About, About Ashish Kafle",
           },
         ]}
       />

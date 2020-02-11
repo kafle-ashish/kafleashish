@@ -9,61 +9,37 @@ import "./index.css"
 const Footer = () => {
   return (
     <footer>
-      <Typography type="h4" color="#1565c0">
-        Follow me on
-      </Typography>
-      <div style={{ display: "flex" }}>
-        <div
-          style={{
-            backgroundImage: `url(${Facebook})`,
-            width: "30px",
-            height: "30px",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            textAlign: "center",
-            margin: "10px",
-          }}
-        ></div>
-        <div
-          style={{
-            backgroundImage: `url(${Instragram})`,
-            width: "30px",
-            height: "30px",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            textAlign: "center",
-            margin: "10px",
-          }}
-        ></div>
-        <div
-          style={{
-            backgroundImage: `url(${WhatsApp})`,
-            width: "30px",
-            height: "30px",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            textAlign: "center",
-            margin: "10px",
-          }}
-        ></div>
-        <div
-          style={{
-            backgroundImage: `url(${Github})`,
-            width: "30px",
-            height: "30px",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            textAlign: "center",
-            margin: "10px",
-          }}
-        ></div>
+      <div className="footer__main">
+        <div className="social__container">
+          <Typography type="h4" color="#1565c0">
+            Follow me on
+          </Typography>
+          <div
+            style={{ backgroundImage: `url('${Facebook}')` }}
+            className="social__icons"
+          ></div>
+          <div
+            className="social__icons"
+            style={{ backgroundImage: `url(${Instragram})` }}
+          ></div>
+          <div
+            className="social__icons"
+            style={{ backgroundImage: `url(${WhatsApp})` }}
+          ></div>
+          <div
+            className="social__icons"
+            style={{ backgroundImage: `url(${Github})` }}
+          ></div>
+        </div>
+        <div className="copy__right">
+          <Typography type="title" style={{ marginTop: "20px" }}>
+            Ashish Kafle | Kathmandu, Nepal
+          </Typography>
+          <Typography type="body">
+            &copy; {new Date().getFullYear()} All Rights Reserved.
+          </Typography>
+        </div>
       </div>
-      <Typography type="title" style={{ marginTop: "20px" }}>
-        Ashish Kafle | Kathmandu, Nepal
-      </Typography>
-      <Typography type="body">
-        &copy; {new Date().getFullYear()} All Rights Reserved.
-      </Typography>
     </footer>
   )
 }
