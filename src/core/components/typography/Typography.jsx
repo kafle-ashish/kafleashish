@@ -12,10 +12,10 @@ const Typography = ({
   children,
   type = "body",
   style,
-  color = "black",
+  color = "#202b33",
   className,
 }) => {
-  const styles = { ...style, color: color }
+  const styles = { ...style, color }
   return (
     <div className={type + " " + className} style={styles}>
       {children}

@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <section className="landing__section">
       <div className="introo">
-        <Typography type="h1" color="#333" className="home__name">
+        <Typography type="h1" className="home__name">
           Ashish Kafle
         </Typography>
         <div>
