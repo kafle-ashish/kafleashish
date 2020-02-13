@@ -1,9 +1,6 @@
 import React from "react"
 import Landing from "../components/landing"
 import Typography from "../core/components/typography/Typography"
-import Server from "../images/computer.svg"
-import Computer from "../images/browser.svg"
-import SmartPhone from "../images/smartphone.svg"
 import Layout from "../components/layout"
 import "./pages.css"
 import SEO from "../components/seo"
@@ -26,13 +23,7 @@ export default function HomePage() {
       <section style={{ display: "grid", placeItems: "center" }}>
         <Typography
           type="h1"
-          style={{
-            letterSpacing: "1px",
-            wordSpacing: "6px",
-            fontWeight: "bolder",
-            fontSize: "36px",
-            padding: "20px",
-          }}
+          className="build__call"
           color="#1565c0"
         >
           What can I help you build?
@@ -55,14 +46,7 @@ export default function HomePage() {
             }}
           >
             <div
-              style={{
-                backgroundImage: `url(${Computer})`,
-                width: "150px",
-                height: "150px",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "contain",
-                textAlign: "center",
-              }}
+              className="call__for__action computer"
             ></div>
             <Typography style={{ margin: "15px 0px" }} type="h5">
               Web/Front-end development
@@ -84,14 +68,7 @@ export default function HomePage() {
             }}
           >
             <div
-              style={{
-                backgroundImage: `url(${Server})`,
-                width: "150px",
-                height: "150px",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "contain",
-                textAlign: "center",
-              }}
+              className="call__for__action server"
             ></div>
             <Typography style={{ margin: "15px 0px" }} type="h5">
               API/Server side development.
@@ -113,15 +90,7 @@ export default function HomePage() {
             }}
           >
             <div
-              style={{
-                backgroundImage: `url(${SmartPhone})`,
-                width: "150px",
-                height: "150px",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "contain",
-                textAlign: "center",
-                flexWrap: "wrap",
-              }}
+              className="call__for__action phone"
             ></div>
             <Typography style={{ margin: "15px 0px" }} type="h5">
               Native App development.

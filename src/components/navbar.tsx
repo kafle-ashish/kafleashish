@@ -1,6 +1,5 @@
 import React from "react"
 import { Button } from "../core/components/button/Button"
-import Logo from "../images/logo-res.png"
 import { Link } from "gatsby"
 import "./index.css"
 
@@ -8,15 +7,7 @@ const Navbar = () => {
   return (
     <nav>
       <Link style={{ textDecoration: "none", outline: "none" }} to="/">
-        <div
-          style={{
-            backgroundImage: `url(${Logo})`,
-            height: "40px",
-            width: "50px",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            marginLeft: "10px",
-          }}
+        <div className="logo__main"
         ></div>
       </Link>
       <section style={{ display: "flex" }}>
@@ -27,7 +18,7 @@ const Navbar = () => {
         </Link>
         <Button type="link">Contact</Button>
       </section>
-    </nav>
+    </nav >
   )
 }
 
