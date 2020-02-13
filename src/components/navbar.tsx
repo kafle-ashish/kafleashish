@@ -10,7 +10,9 @@ const Navbar = () => {
         <div className="logo__main"></div>
       </Link>
       <section style={{ display: "flex" }}>
-        <Button type="link">Lab</Button>
+        <Link style={{ textDecoration: "none", outline: "none" }} to="/lab">
+          <Button type="link">Lab</Button>
+        </Link>
         <Button type="link">Projects</Button>
         <Link style={{ textDecoration: "none", outline: "none" }} to="/about">
           <Button type="link">About</Button>
