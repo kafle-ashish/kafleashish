@@ -18,7 +18,7 @@
 }
 
 .raised {
-  background-color: #1565c0;
+  background-color: #1565c0 !important;
   color: white;
   box-shadow: 4px 4px 6px #bdbdbd;
 }
@@ -40,4 +40,6 @@
   transition-duration: 0.4s;
   display: block;
   text-align: center;
+  background-color: #f6f9fc;
+  margin: 0px 2px;
 }

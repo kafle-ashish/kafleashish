@@ -6,9 +6,8 @@ import "./index.css"
 const Navbar = () => {
   return (
     <nav>
-      <Link style={{ textDecoration: "none", outline: "none" }} to="/">
-        <div className="logo__main"
-        ></div>
+      <Link to="/">
+        <div className="logo__main"></div>
       </Link>
       <section style={{ display: "flex" }}>
         <Button type="link">Lab</Button>

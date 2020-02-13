@@ -82,10 +82,10 @@ footer {
 }
 
 .logo__main {
-  background-image: url(./../images/logo-res.png);
-  height: "40px";
-  width: "50px";
-  background-repeat: "no-repeat";
-  background-size: "contain";
-  margin-left: "10px";
+  background-image: url(../images/logo-res.png);
+  height: 40px;
+  width: 45px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 10px;
 }
