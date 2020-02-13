@@ -25,6 +25,13 @@
   text-align: center;
 }
 
+.call__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 230px;
+}
+
 .computer {
   background-image: url(../images/browser.svg);
 }

@@ -19,6 +19,7 @@ export default function HomePage() {
           },
         ]}
       />
+
       <Landing />
       <section style={{ display: "grid", placeItems: "center" }}>
         <Typography
@@ -37,17 +38,8 @@ export default function HomePage() {
             marginTop: "50px",
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              maxWidth: "230px",
-            }}
-          >
-            <div
-              className="call__for__action computer"
-            ></div>
+          <div className="call__cards">
+            <div className="call__for__action computer"></div>
             <Typography style={{ margin: "15px 0px" }} type="h5">
               Web/Front-end development
             </Typography>
@@ -59,17 +51,8 @@ export default function HomePage() {
             </Typography>
           </div>
 
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              maxWidth: "230px",
-            }}
-          >
-            <div
-              className="call__for__action server"
-            ></div>
+          <div className="call__cards">
+            <div className="call__for__action server"></div>
             <Typography style={{ margin: "15px 0px" }} type="h5">
               API/Server side development.
             </Typography>
@@ -81,17 +64,8 @@ export default function HomePage() {
             </Typography>
           </div>
 
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              maxWidth: "230px",
-            }}
-          >
-            <div
-              className="call__for__action phone"
-            ></div>
+          <div className="call__cards">
+            <div className="call__for__action phone"></div>
             <Typography style={{ margin: "15px 0px" }} type="h5">
               Native App development.
             </Typography>
