@@ -12,7 +12,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  /* height: 80px; */
   box-shadow: 0 0 2px #ced9e0;
 }
 
@@ -78,13 +78,14 @@ footer {
 }
 
 .position__desc {
-  font-size: 1rem !important;
+  font-size: 1.3rem !important;
 }
 
 .logo__main {
-  background-image: url(../images/logo-res.png);
-  height: 40px;
+  background-image: url(../images/logo__sun__moon.svg);
+  height: 45px;
   width: 45px;
+  scale: 1.5;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-left: 10px;

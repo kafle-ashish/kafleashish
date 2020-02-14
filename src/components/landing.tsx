@@ -6,10 +6,11 @@ const Landing = () => {
   return (
     <section className="landing__section">
       <div className="introo">
-        <Typography type="h1" className="home__name">
-          Ashish Kafle
-        </Typography>
         <div>
+
+          <Typography type="h1" className="home__name">
+            Ashish Kafle
+        </Typography>
           <Typography
             type="light__bold"
             color="#333"
@@ -17,17 +18,19 @@ const Landing = () => {
           >
             Freelance Full Stack Developer.
           </Typography>
-          <div
-            style={{
-              display: "grid",
-              placeItems: "center",
-              paddingTop: "20px",
-            }}
-          >
-            <Button type="flat" intent="#1565c0">
-              Hire Me!
+        </div>
+
+
+        <div
+          style={{
+            display: "grid",
+            placeItems: "center",
+            paddingTop: "20px",
+          }}
+        >
+          <Button type="flat" intent="#1565c0">
+            Hire Me!
             </Button>
-          </div>
         </div>
       </div>
       <section

@@ -24,7 +24,7 @@
 }
 
 .raised:hover {
-  background-color: #42a5f5;
+  background-color: #42a5f5 !important;
   box-shadow: 4px 4px 6px #a0a0a0;
 }
 
@@ -40,6 +40,6 @@
   transition-duration: 0.4s;
   display: block;
   text-align: center;
-  background-color: #f6f9fc;
+  background: #f6f9fc;
   margin: 0px 2px;
 }
