@@ -1,13 +1,13 @@
 import React from "react"
 import Typography from "../core/components/typography/Typography"
 import { Button } from "../core/components/button/Button"
+import { Link } from "gatsby"
 
 const Landing = () => {
   return (
     <section className="landing__section">
       <div className="introo">
         <div>
-
           <Typography type="h1" className="home__name">
             Ashish Kafle
         </Typography>
@@ -19,8 +19,6 @@ const Landing = () => {
             Freelance Full Stack Developer.
           </Typography>
         </div>
-
-
         <div
           style={{
             display: "grid",
@@ -36,7 +34,9 @@ const Landing = () => {
       <section
         style={{ display: "flex", justifyContent: "center", marginTop: "40px" }}
       >
-        <Button style={{ margin: "10px" }}>About Me</Button>
+        <Link style={{ textDecoration: "none", outline: "none" }} to="/about">
+          <Button style={{ margin: "10px" }}>About Me</Button>
+        </Link>
         <Button style={{ margin: "10px" }}>Portfolio</Button>
         <Button style={{ margin: "10px" }}>Contact Me</Button>
       </section>

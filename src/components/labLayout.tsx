@@ -18,6 +18,9 @@ export default function LabLayout({ children }: Props): ReactElement {
           <div className="logo__main__lab"></div>
         </Link>
         <div className="nav__links">
+          <Link style={{ textDecoration: "none", outline: "none" }} to="/">
+            <Button type="link">Home</Button>
+          </Link>
           <Link style={{ textDecoration: "none", outline: "none" }} to="/lab/dharma">
             <Button type="link">Dharma</Button>
           </Link>

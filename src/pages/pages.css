@@ -52,7 +52,7 @@
 
 .blog__header {
   display: flex;
-  height: 5vh;
+  height: auto;
   width: 100vw;
   background-color: #fff;
   align-items: center;
@@ -60,9 +60,10 @@
 }
 
 .logo__main__lab {
-  background-image: url(../images/logo-res.png);
-  height: 5vh;
-  width: 40px;
+  background-image: url(../images/logo__sun__moon.svg);
+  height: 45px;
+  width: 45px;
+  scale: 1.5;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-left: 10px;
