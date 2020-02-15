@@ -110,4 +110,28 @@ footer {
     margin-top: -40px;
     margin-bottom: 10px;
   }
+
+  .footer__main {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .social__container {
+    margin-top: 6px;
+  }
+
+  .follow__me {
+    display: none;
+  }
+
+  .copy__right {
+    align-items: center;
+  }
+
+  .social__icons {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+  }
 }

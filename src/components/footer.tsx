@@ -11,7 +11,7 @@ const Footer = () => {
     <footer>
       <div className="footer__main">
         <div className="social__container">
-          <Typography type="h4" color="#1565c0">
+          <Typography type="h4" color="#1565c0" className="follow__me">
             Follow me on
           </Typography>
           <div
