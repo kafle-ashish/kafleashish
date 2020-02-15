@@ -1,11 +1,23 @@
-import React from "react"
+import React, { useState } from "react"
 import Typography from "../core/components/typography/Typography"
 import { Button } from "../core/components/button/Button"
 import { Link } from "gatsby"
+import Dialog from "./dialog"
 
 const Landing = () => {
+
+  const [isHireDialogShown, setHireDialogShown] = useState(false);
+
   return (
     <section className="landing__section">
+      <Dialog
+        setIsOpen={setHireDialogShown}
+        isOpen={isHireDialogShown}
+        header="Hire me!"
+        footer="Hire me as well!"
+      >
+        Hello World!
+      </Dialog>
       <div className="introo">
         <div>
           <Typography type="h1" className="home__name">
@@ -26,7 +38,9 @@ const Landing = () => {
             paddingTop: "20px",
           }}
         >
-          <Button type="flat" intent="#1565c0">
+          <Button type="flat" intent="#1565c0"
+            onClick={() => { setHireDialogShown(true) }}
+          >
             Hire Me!
             </Button>
         </div>

@@ -29,15 +29,7 @@ export default function HomePage() {
         >
           What can I help you build?
         </Typography>
-        <div
-          style={{
-            display: "flex",
-            width: "100%",
-            justifyContent: "space-evenly",
-            alignItems: "center",
-            marginTop: "50px",
-          }}
-        >
+        <div className="call__cards__container">
           <div className="call__cards">
             <div className="call__for__action computer"></div>
             <Typography style={{ margin: "15px 0px" }} type="h5">

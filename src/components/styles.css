@@ -1,0 +1,22 @@
+.modal__wrapper {
+  position: fixed; /* Stay in place */
+  z-index: 111111; /* Sit on top */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__container {
+  width: 60vw;
+  height: 60vh;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  display: block;
+}

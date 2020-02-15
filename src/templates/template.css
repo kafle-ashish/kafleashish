@@ -14,7 +14,7 @@
 }
 
 .logo__main__lab {
-  background-image: url(../images/logo-res.png);
+  background-image: url(../images/logo__black.svg);
   height: 5vh;
   width: 40px;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@
   margin-left: 10px;
 }
 
-.nav__links{
+.nav__links {
   display: flex;
   align-items: center;
 }

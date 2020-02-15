@@ -17,6 +17,14 @@
   padding: 20px;
 }
 
+.call__cards__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
 .call__for__action {
   width: 150px;
   height: 150px;
@@ -72,4 +80,26 @@
 .nav__links {
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .build__call {
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: none;
+    margin-bottom: -60px;
+  }
+  .call__cards {
+    margin-top: 50px;
+  }
+
+  .call__cards__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
 }
