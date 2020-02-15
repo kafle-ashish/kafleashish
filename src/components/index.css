@@ -90,3 +90,24 @@ footer {
   background-size: 100% 100%;
   margin-left: 10px;
 }
+
+@media only screen and (max-width: 500px) {
+  .introo {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: -100px;
+  }
+  .name__pos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home__name {
+    font-size: 2rem !important;
+    margin-top: -40px;
+    margin-bottom: 10px;
+  }
+}

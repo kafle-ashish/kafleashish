@@ -19,7 +19,7 @@ const Landing = () => {
         Hello World!
       </Dialog>
       <div className="introo">
-        <div>
+        <div className="name__pos">
           <Typography type="h1" className="home__name">
             Ashish Kafle
         </Typography>
