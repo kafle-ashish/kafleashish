@@ -35,7 +35,7 @@ export default function HomePage() {
             <Typography style={{ margin: "15px 0px" }} type="h5">
               Web/Front-end development
             </Typography>
-            <Typography type="body">
+            <Typography type="body" className="call__action__body">
               Want to build your dream business? Or do you want to make your own
               personal webpage? <br />I can help you build beautiful,
               accessible, performant & fast websites either for personal or
@@ -48,7 +48,7 @@ export default function HomePage() {
             <Typography style={{ margin: "15px 0px" }} type="h5">
               API/Server side development.
             </Typography>
-            <Typography type="body">
+            <Typography type="body" className="call__action__body">
               Any good business or service usually needs an API to talk to. I
               can build a fully perfomant & scalable API for your mobile or
               desktop applications. Want to build an e-commerce or your own new
@@ -61,7 +61,7 @@ export default function HomePage() {
             <Typography style={{ margin: "15px 0px" }} type="h5">
               Native App development.
             </Typography>
-            <Typography type="body">
+            <Typography type="body" className="call__action__body">
               Do you want to reach your customers directly? I can build a
               performant mobile application for ios or android. I can work with
               API integration and application development. Bring me your ideas
