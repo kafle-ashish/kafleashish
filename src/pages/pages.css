@@ -82,6 +82,10 @@
   align-items: center;
 }
 
+.call__action__body {
+  text-align: center;
+}
+
 @media only screen and (max-width: 500px) {
   .build__call {
     letter-spacing: 1px;

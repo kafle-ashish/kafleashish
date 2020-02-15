@@ -25,7 +25,7 @@ const Landing = () => {
         </Typography>
           <Typography
             type="light__bold"
-            color="#333"
+            color="#1D7324"
             className="position__desc"
           >
             Freelance Full Stack Developer.

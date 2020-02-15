@@ -25,7 +25,7 @@ export default function HomePage() {
         <Typography
           type="h1"
           className="build__call"
-          color="#1565c0"
+          color="#DB2C6F"
         >
           What can I help you build?
         </Typography>
