@@ -95,6 +95,21 @@ footer {
   margin-left: 10px;
 }
 
+/* .name__pos::before {
+  width: 100px;
+  height: 100px;
+  content: "";
+  display: inline-block;
+  background-color: red;
+  position: relative;
+  left: -120px !important;
+  top: -20px;
+  background-image: url(../images/logo__black.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  scale: 3;
+} */
+
 @media only screen and (max-width: 500px) {
   .introo {
     flex-direction: column;

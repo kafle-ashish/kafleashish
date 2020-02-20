@@ -86,6 +86,28 @@
   text-align: center;
 }
 
+.tools__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  width: 70%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 2vh;
+}
+
+.tool {
+  display: grid;
+  place-items: center;
+  margin: 20px 20px;
+}
+
+.tool__name {
+  font-size: 1rem;
+  margin-top: 1.6vh;
+}
+
 @media only screen and (max-width: 500px) {
   .build__call {
     letter-spacing: 1px;

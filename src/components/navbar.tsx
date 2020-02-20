@@ -13,10 +13,9 @@ const Navbar = () => {
         <Link style={{ textDecoration: "none", outline: "none" }} to="/">
           <Button type="link">Home</Button>
         </Link>
-        <Link style={{ textDecoration: "none", outline: "none" }} to="/lab">
-          <Button type="link">Lab</Button>
+        <Link style={{ textDecoration: "none", outline: "none" }} to="/about">
+          <Button type="link">About</Button>
         </Link>
-        <Button type="link">Projects</Button>
       </section>
     </nav >
   )

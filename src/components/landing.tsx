@@ -51,7 +51,9 @@ const Landing = () => {
         <Link style={{ textDecoration: "none", outline: "none" }} to="/about">
           <Button style={{ margin: "10px" }}>About Me</Button>
         </Link>
-        <Button style={{ margin: "10px" }}>Portfolio</Button>
+        <Link style={{ textDecoration: "none", outline: "none" }} to="/portfolio">
+          <Button style={{ margin: "10px" }}>Portfolio</Button>
+        </Link>
         <Button style={{ margin: "10px" }}>Contact Me</Button>
       </section>
     </section>
